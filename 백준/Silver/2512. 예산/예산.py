@@ -15,7 +15,7 @@ else:
         mid = (start + end) // 2
         sums = 0
         for l in li:
-            if l < mid:
+            if l <= mid:
                 sums += l
             else:
                 sums += mid
